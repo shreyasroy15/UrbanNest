@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Cpu, Send, RefreshCw, CheckCircle2, AlertTriangle, ShieldCheck, HelpCircle } from 'lucide-react';
-import { getTelemetryLogs } from '../../data/admin/dashboardData';
+
 
 export const AdminIntegrations = () => {
   const [queryWebhook, setQueryWebhook] = useState(import.meta.env.VITE_N8N_QUERY_WEBHOOK_URL || '');
