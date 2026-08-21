@@ -1,0 +1,162 @@
+export const products = [
+  {
+    id: 1,
+    name: "Ceramic Table Vase",
+    category: "Home Décor",
+    price: 899,
+    rating: 4.8,
+    reviewsCount: 34,
+    description: "An elegant, hand-finished ceramic vase that features a matte earth-tone coating. Its minimalist curves and sturdy flat base make it a perfect ornament for shelves, terminal counters, or dining workspaces.",
+    image: "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=800&q=80",
+    features: ["Hand-crafted stoneware", "Dimensions: 22cm x 12cm", "Water-resistant glazed interior", "Available in Sand and Terracotta"],
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: 2,
+    name: "Aromatic Amber Reed Diffuser",
+    category: "Household Essentials",
+    price: 649,
+    rating: 4.6,
+    reviewsCount: 22,
+    description: "Fill your living space with the warm notes of organic amber, sandalwood, and gentle vanilla. Comes with six natural rattan rods and a vintage-styled dark glass dispenser.",
+    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+    features: ["100ml essential oil mixture", "Lasts up to 60 days", "Eco-friendly rattan reeds", "Alcohol-free formulation"],
+    isFeatured: true,
+    isNew: false
+  },
+  {
+    id: 3,
+    name: "Classic Cork Journal",
+    category: "Stationery",
+    price: 499,
+    rating: 4.9,
+    reviewsCount: 18,
+    description: "Write down your daily schedules or sketches in a sustainably sourced cork notebook. Features lay-flat binding, 160 pages of ink-proof acid-free cream paper, and an elastic closure strap.",
+    image: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80",
+    features: ["Sustainably harvested cork cover", "A5 size (14.8cm x 21cm)", "80 GSM ruled lines", "Includes page marker ribbon"],
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: 4,
+    name: "Minimalist Linen Tote Bag",
+    category: "Lifestyle Accessories",
+    price: 599,
+    rating: 4.5,
+    reviewsCount: 41,
+    description: "A spacious, sturdy organic linen tote designed for everyday market trips, beach lounging, or book carrying. Incorporates double-stitched leather handle points and an internal zipper compartment.",
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+    features: ["100% natural linen shell", "Reinforced vegan leather straps", "Internal phone pocket with key clip", "Capacity: 12 Liters"],
+    isFeatured: true,
+    isNew: false
+  },
+  {
+    id: 5,
+    name: "Solid Brass Pen Holder",
+    category: "Stationery",
+    price: 1199,
+    rating: 4.7,
+    reviewsCount: 12,
+    description: "A heavy, solid brass cylindrical holder designed to support your favorite pens and pencils. Developed with a non-skid felt bottom to guard your wooden desktop surfaces.",
+    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80",
+    features: ["Weighted pure brass core", "Brushed gold anti-tarnish finish", "Soft felt base", "Weight: 310 grams"],
+    isFeatured: false,
+    isNew: false
+  },
+  {
+    id: 6,
+    name: "Woven Cotton Storage Basket",
+    category: "Household Essentials",
+    price: 799,
+    rating: 4.7,
+    reviewsCount: 29,
+    description: "Tidy up your blankets, towels, or kid's toys with this breathable woven basket. Built with dual slit handles for convenient room-to-room carrying.",
+    image: "https://images.unsplash.com/photo-1531835551805-16d864c88b74?auto=format&fit=crop&w=800&q=80",
+    features: ["Natural unbleached cotton threads", "Reinforced handles", "Flexible flat-packing layout", "Dimensions: 35cm diameter, 30cm height"],
+    isFeatured: true,
+    isNew: false
+  },
+  {
+    id: 7,
+    name: "Handmade Scented Soy Candle",
+    category: "Home Décor",
+    price: 449,
+    rating: 4.8,
+    reviewsCount: 56,
+    description: "Hand-poured candle made from natural soy wax infused with wild lavender, balsam fir, and eucalyptus extracts. Features a lead-free organic wood wick that crackles softly when lit.",
+    image: "https://images.unsplash.com/photo-1603006905 India?auto=format&fit=crop&w=800&q=80", // fallback link
+    image: "https://images.unsplash.com/photo-1603006905003 India?auto=format&fit=crop&w=800&q=80", // fallback
+    image: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80",
+    features: ["100% natural soy wax", "Burn time: 40 hours", "Crackling wooden wick", "Recyclable amber jar with tin lid"],
+    isFeatured: false,
+    isNew: true
+  },
+  {
+    id: 8,
+    name: "Copper Accent Coffee Spoon (Set of 2)",
+    category: "Gifts",
+    price: 349,
+    rating: 4.4,
+    reviewsCount: 15,
+    description: "A pair of elegant coffee and tea stirring spoons crafted from food-grade stainless steel with polished copper plating. The perfect minor accessory for espresso setups.",
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80", // fallback
+    image: "https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?auto=format&fit=crop&w=800&q=80",
+    features: ["Premium 304 stainless steel", "Rose-gold copper electroplated finish", "Dishwasher safe", "Length: 13.5cm"],
+    isFeatured: false,
+    isNew: false
+  },
+  {
+    id: 9,
+    name: "Bespoke Gift Wrapping Set",
+    category: "Gifts",
+    price: 299,
+    rating: 4.9,
+    reviewsCount: 9,
+    description: "Elevate your gift personalization. Contains three distinct sheets of heavy kraft wrapping paper decorated with foliage sketches, along with jute twine and six gift tags.",
+    image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80",
+    features: ["Three 50x70cm sheets (100 GSM kraft)", "5 meters of natural jute twine", "6 foil-stamped gift tags", "100% biodegradable materials"],
+    isFeatured: false,
+    isNew: true
+  },
+  {
+    id: 10,
+    name: "Minimalist Leather Cardholder",
+    category: "Lifestyle Accessories",
+    price: 999,
+    rating: 4.6,
+    reviewsCount: 25,
+    description: "An elegant, compact card sleeve handcrafted from premium full-grain vegetable-tanned leather. Holds up to 6 cards and folded cash bills without adding bulk to your pockets.",
+    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
+    features: ["Vegetable-tanned full-grain leather", "4 slot pockets, 1 center compartment", "Hand-stitched wax threading", "Dimensions: 10cm x 7.5cm"],
+    isFeatured: true,
+    isNew: false
+  },
+  {
+    id: 11,
+    name: "Linen-lined Desktop File Box",
+    category: "Stationery",
+    price: 849,
+    rating: 4.3,
+    reviewsCount: 14,
+    description: "Store your folders, receipts, and invoices in a gorgeous desktop organizing box. Wrapped in beige linen cloth with a sturdy cardboard core and a brass labeling frame.",
+    image: "https://images.unsplash.com/photo-1588725841028-1ef824eb8158?auto=format&fit=crop&w=800&q=80",
+    features: ["Natural beige linen wrap", "Reinforced side metal hardware", "Front brass card slot for tags", "Sized for A4 formats"],
+    isFeatured: false,
+    isNew: false
+  },
+  {
+    id: 12,
+    name: "Matte Black Tea Infuser Mug",
+    category: "Household Essentials",
+    price: 699,
+    rating: 4.7,
+    reviewsCount: 31,
+    description: "Enjoy loose-leaf teas with this all-in-one ceramic mug. Comes with an extra-fine mesh laser-cut stainless steel strainer basket and a dual-use wood lid that serves as a basket drip tray.",
+    image: "https://images.unsplash.com/photo-1515696955266 India?auto=format&fit=crop&w=800&q=80", // fallback
+    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
+    features: ["Thick-walled insulated ceramic", "380ml capacity", "Rust-free micro-perforated infuser", "Natural wood cover"],
+    isFeatured: true,
+    isNew: false
+  }
+];

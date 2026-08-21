@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* Premium Font pairing */
+
+:root {
+  /* Premium Design System Colors - Warm Sand, Charcoal, Honey Amber */
+  --color-primary: #1c1917;       /* Stone 900 */
+  --color-secondary: #57534e;     /* Stone 700 */
+  --color-accent: #c2410c;        /* Orange 700 (Warm Terracotta Accent) */
+  --color-accent-hover: #9a3412;  /* Orange 800 */
+  --color-bg-base: #fdfdfc;       /* Extremely soft Warm White/Cream */
+  --color-bg-paper: #ffffff;      /* Pure white */
+  --color-bg-secondary: #f5f5f4;  /* Stone 100 */
+  
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-heading: 'Outfit', sans-serif;
+}
+
+@theme {
+  --color-primary-stone: var(--color-primary);
+  --color-secondary-stone: var(--color-secondary);
+  --color-accent-warm: var(--color-accent);
+  --color-accent-warm-hover: var(--color-accent-hover);
+  --color-app-bg: var(--color-bg-base);
+  --color-app-paper: var(--color-bg-paper);
+  --color-app-bg-secondary: var(--color-bg-secondary);
+  
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-heading);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: #dbd8d6;
+  border-radius: 9px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Standard HTML tags */
+body {
+  font-family: var(--font-sans);
+  color: var(--color-primary);
+  background-color: var(--color-bg-base);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Custom Utilities and Animations */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-secondary);
+  color: transparent;
+}
+
+.custom-shadow-sm {
+  box-shadow: 0 2px 8px -2px rgba(28, 25, 23, 0.04), 0 4px 12px -2px rgba(28, 25, 23, 0.02);
+}
+
+.custom-shadow-md {
+  box-shadow: 0 4px 20px -4px rgba(28, 25, 23, 0.06), 0 10px 24px -6px rgba(28, 25, 23, 0.03);
+}
+
+.custom-shadow-lg {
+  box-shadow: 0 10px 32px -6px rgba(28, 25, 23, 0.08), 0 20px 48px -10px rgba(28, 25, 23, 0.04);
+}
+
+/* Page fade transitions */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
