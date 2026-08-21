@@ -8,5 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  preview: {
+    allowedHosts: ['urbannest-11qd.onrender.com', '.onrender.com']
+  }
 })
 
